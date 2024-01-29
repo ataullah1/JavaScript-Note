@@ -16,7 +16,7 @@ while (numbers <= 15) {
   numbers++;
 }
 
-// I will invest at least 6 hrs every single day for next 60 days!" this message 60 times. So display this.
+// I will invest at least 6 hrs every single day for next 60 days!" this message 60 times. So display this..
 let massage = 1;
 while (massage <= 60) {
   console.log(massage);
