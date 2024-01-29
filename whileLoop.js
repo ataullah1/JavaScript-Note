@@ -47,3 +47,46 @@ while (evenNum <= 98) {
   }
   evenNum++;
 }
+
+// Task fore
+// Display sum of all the odd numbers from 81 to 131.
+
+let sumOddNum = 81;
+sumOdd = 0;
+while (sumOddNum <= 131) {
+  if (sumOddNum % 2 === 1) {
+    sumOdd += sumOddNum;
+    console.log('Sum Odd Number:', sumOdd);
+  }
+  sumOddNum++;
+}
+
+// Task five
+// Display sum of all the even numbers from 206 to 311.
+
+let sumEvenNum = 206;
+sumEven = 0;
+while (sumEvenNum <= 311) {
+  if (sumEvenNum % 2 === 0) {
+    sumEven += sumEvenNum;
+    console.log('Sum Even Number:', sumEven);
+  }
+  sumEvenNum++;
+}
+
+// Task Six
+// Generate a multiplication table for number 5
+
+let i = 1;
+while (i <= 10) {
+  console.log('5* ', +i, '=', +5 * i);
+  i++;
+}
+
+// Task Seven
+
+let down = 21;
+while (down >= 15) {
+  console.log(down);
+  down--;
+}
