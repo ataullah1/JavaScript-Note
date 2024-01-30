@@ -69,10 +69,10 @@ sumEven = 0;
 while (sumEvenNum <= 311) {
   if (sumEvenNum % 2 === 0) {
     sumEven += sumEvenNum;
-    console.log('Sum Even Number:', sumEven);
   }
   sumEvenNum++;
 }
+console.log('Sum Even Number:', sumEven);
 
 // Task Six
 // Generate a multiplication table for number 5
