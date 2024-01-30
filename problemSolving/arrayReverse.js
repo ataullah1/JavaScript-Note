@@ -16,8 +16,8 @@ console.log(sum);
 
 console.log('===========================');
 
-let a = [5, 10, 15, 20, 25];
-let temp = a.length - 1;
-temp = a[1];
+let a = [5, 10, 15, 20, 25, 30];
+let temp = a[4];
+a[4] = a[1];
 a[1] = temp;
 console.log(a);
