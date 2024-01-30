@@ -11,5 +11,5 @@ for (let i = 0; i < findArray.length; i++) {
 if (findIndex >= 0) {
   console.log(findIndex, 'Is Founded');
 } else {
-  console.log('Your input is not founded');
+  console.log('Your input is not found');
 }
