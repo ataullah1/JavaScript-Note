@@ -1,17 +1,12 @@
 let text =
-  'amaDer a deShe hbe sEy a cElE kObe i koThay nA boRo hoA kAje bOro hBe.';
-let textSplit = text.split(' ');
-// console.log(textSplit);
+  'amaDer A deShe hbe sEy a cElE kObe i E A C koThay nA boRo hoA kAje bOro hBe.';
+let capita = text.split(' ');
+for (let i = 0; i < capita.length; i++) {
+  capita[i] = capita[i][0].toUpperCase() + capita[i].slice(1).toLowerCase();
 
-for (let i = 0; i < textSplit.length; i++) {
-  textSplit[i] =
-    textSplit[i][0].toUpperCase() + textSplit[i].slice(1).toLowerCase();
-  if (textSplit[i].length == 1) {
-   
-    textSplit[i].toLowerCase();
+  if (capita[i].length === 1) {
+    capita[i] = capita[i].toLowerCase();
   }
-  //   console.log(textSplit[i].length);
 }
-let a = textSplit.join(' ');
-console.log(a);
-// console.log(textSplit);
+let output = capita.join(' ');
+console.log(output);
