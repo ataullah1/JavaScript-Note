@@ -58,11 +58,17 @@ console.log(aColor);
 
 console.log('=======String word Reverse ============');
 const statement = 'I am a hard working person';
-let statementRev = '';
-for (let i = 0; i < statement.length; i++) {
-  let abc = statement[i].split('');
-  console.log(abc);
-}
-// console.log(statementRev);
+let statementRev = statement.split(' ').reverse().join(' ');
+console.log(statementRev);
 
-console.log('===================');
+console.log('=======String word Reverse for looping ============');
+const statementText = 'I am a hard working person';
+let statementLoop = statementText.split(' ');
+let rev_wordLoop = '';
+for (let i = statementLoop.length - 1; i >= 0; i--) {
+  // console.log(statementLoop[i]);
+  rev_wordLoop += statementLoop[i] + ' ';
+}
+
+// rev_wordLoop = rev_wordLoop.trim();
+console.log(rev_wordLoop);
