@@ -51,4 +51,3 @@ for (const i of biloyArray) {
   biloyString += i;
 }
 console.log(biloyString);
-
