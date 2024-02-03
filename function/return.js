@@ -58,3 +58,48 @@ const numArray = [
 ];
 const output = strArray(numArray);
 console.log(output);
+
+console.log('----------------');
+
+function foreParameter(one, two, three, fore) {
+  const multi = one * two * three * fore;
+  return multi;
+}
+const multiply = foreParameter(12, 23, 34, 45);
+console.log(multiply);
+
+console.log('---------------');
+
+function oddNumMulti(num) {
+  let number = num;
+  if (number % 2 === 0) {
+    number /= 2;
+    // console.log(number);
+  } else {
+    number *= 2;
+    // console.log(number);
+  }
+  return number;
+}
+
+const funcOutput = oddNumMulti(311);
+
+console.log(funcOutput);
+
+console.log('--------------------');
+// Average value ber korar niom
+
+function avgValue(arr, arrSize) {
+  let arrSum = 0;
+  for (const i of arr) {
+    arrSum += i;
+  }
+  let avg = arrSum / arrSize;
+  return avg;
+}
+
+const array = [20, 22, 35, 46, 7, 456, 2, 4, 456, 753, 56, 644, 677];
+const avg = avgValue(array, array.length);
+console.log(avg);
+
+console.log('--------------------');
