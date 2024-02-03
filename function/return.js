@@ -121,3 +121,17 @@ const zero_count = count_zero(cnt);
 console.log(zero_count);
 
 console.log('-------------------');
+
+// Odd Number And Even Number Check
+
+function oddEvenCheck(value) {
+  let result;
+  if (value % 2 === 0) {
+    result = 'Even';
+  } else {
+    result = 'Odd';
+  }
+  return result;
+}
+const funcCall = oddEvenCheck(542);
+console.log(funcCall);
