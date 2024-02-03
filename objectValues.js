@@ -9,3 +9,6 @@ console.log(computer);
 
 const values = Object.values(computer);
 console.log(values);
+
+
+
