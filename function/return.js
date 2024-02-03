@@ -89,7 +89,7 @@ console.log(funcOutput);
 console.log('--------------------');
 // Average value ber korar niom
 
-function avgValue(arr, arrSize) {
+function make_avg(arr, arrSize) {
   let arrSum = 0;
   for (const i of arr) {
     arrSum += i;
@@ -99,7 +99,21 @@ function avgValue(arr, arrSize) {
 }
 
 const array = [20, 22, 35, 46, 7, 456, 2, 4, 456, 753, 56, 644, 677];
-const avg = avgValue(array, array.length);
+const avg = make_avg(array, array.length);
 console.log(avg);
 
 console.log('--------------------');
+
+// Count 0 value
+
+function count_zero(binary) {
+  for (const i of binary) {
+    let count = i.split('');
+    let aa = 0;
+    if (count === 0) {
+      aa++;
+    }
+    console.log(aa);
+  }
+}
+count_zero('1010');
