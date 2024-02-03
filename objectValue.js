@@ -12,3 +12,4 @@ let b = 'profession';
 a[b] = 'Developer';
 
 console.log(a);
+console.log('==============');
