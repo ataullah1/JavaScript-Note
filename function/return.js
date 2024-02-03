@@ -107,13 +107,17 @@ console.log('--------------------');
 // Count 0 value
 
 function count_zero(binary) {
-  for (const i of binary) {
-    let count = i.split('');
-    let aa = 0;
-    if (count === 0) {
-      aa++;
+  let count = 0;
+  for (let i = 0; i < binary.length; i++) {
+    if (binary[i] === '0') {
+      count++;
     }
-    console.log(aa);
   }
+  return count;
 }
-count_zero('1010');
+
+const cnt = '101010101110000001010101';
+const zero_count = count_zero(cnt);
+console.log(zero_count);
+
+console.log('-------------------');
