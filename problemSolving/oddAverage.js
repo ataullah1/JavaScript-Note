@@ -4,16 +4,33 @@
  */
 
 function oddAvg(numberArr) {
-  let oddSum = 0;
+  let odd = [];
   for (const number of numberArr) {
     if (number % 2 === 1) {
-      oddSum = number + oddSum;
-      let numSize = number.length;
-      console.log(numSize);
+      odd.push(number);
     }
   }
-  //   console.log(oddSum);
-  return oddSum;
+
+  sumOdd = 0;
+  for (const oddAvg of odd) {
+    sumOdd += oddAvg;
+  }
+  let oddSize = odd.length;
+  const oddAvgOutput = sumOdd / oddSize;
+  return `Odd Avearage Number: ${oddAvgOutput}`;
 }
-const numArr = [234, 246, 5, 34, 25];
+const numArr = [
+  234, 246, 5, 34, 25, 4, 3, 346, 3, 673, 57, 3457, 46, 457, 468, 456,
+];
 console.log(oddAvg(numArr));
+
+console.log('------+++++++++------');
+
+function oddAverage(numberArr) {
+  let odd = [];
+  for (const number of numberArr) {
+    if (number % 2 === 1) {
+      odd.push(number);
+    }
+  }
+}
