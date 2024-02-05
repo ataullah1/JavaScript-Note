@@ -29,3 +29,5 @@ function dupNum(value) {
 
 const duplicateArr = [23, 24, 23, 22, 23];
 console.log(dupNum(duplicateArr));
+
+

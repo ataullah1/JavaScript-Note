@@ -1,5 +1,5 @@
 /**
- * Sobcea soto number ber korar --------
+ * Sobcea soto number ber korar niom --------
  *
  */
 
@@ -18,6 +18,8 @@ function minNumber(arr) {
 console.log(minNumber(heights2));
 
 console.log('------------------');
+
+// * Sobcea boro number ber korar niom --------
 
 const a = [436, 36, 37, 4, 716, 8];
 
