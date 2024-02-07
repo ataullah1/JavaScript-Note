@@ -30,6 +30,15 @@ console.log(sortArrNeg);
 
 console.log('---------');
 
+const textArr = ['afa', 'fg', 'rsr', 'w3ert', 'bsg'];
+textArr.sort();
+console.log(textArr);
+console.log('---------');
+
+const textArrLen = ['afa', 'fg', 'rsr', 'w3ert', 'bsg'];
+textArrLen.sort((a, b) => a.length - b.length);
+console.log(textArrLen);
+console.log('---------');
 /** 
 function sortArray(arr) {
   //   return arr.slice().sort((a, b) => a - b);
