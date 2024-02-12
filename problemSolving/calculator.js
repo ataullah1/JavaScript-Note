@@ -29,5 +29,5 @@ const x = 'subtract';
 const y = 'multiply';
 const z = 'divide';
 const opret = y;
-const output = calculator(5, 4, opret);
+const output = calculator(5, 5, opret);
 console.log(output);
