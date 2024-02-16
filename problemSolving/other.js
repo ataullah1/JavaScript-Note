@@ -57,7 +57,7 @@ const findBooks = (arrOfBooks) => {
   let output = [];
   for (const i of arrOfBooks) {
     if (i.year >= 2000) {
-        output.push(i)
+      output.push(i);
     }
   }
   return output;
@@ -82,3 +82,21 @@ const array = [
   },
 ];
 console.log(findBooks(array));
+
+// Array second large element find
+function secondLargest(numbers) {
+  //Write your code here
+  //Don't forget to return
+  let ab = numbers.sort(function (a, b) {
+    return a - b;
+  });
+  ab.pop();
+  let a = 0;
+  for (let b of ab) {
+    if (b > a) {
+      a = b;
+    }
+  }
+  return a;
+}
+console.log(secondLargest([10, 33, 5, 99, 6]));
