@@ -13,3 +13,7 @@ class Bus extends Vehicle {
     this.load = load;
   }
 }
+
+// ....
+console.log('=========');
+const a = 'Ataulah';
