@@ -28,3 +28,12 @@ console.log(arr);
 console.log(first);
 console.log(a);
 console.log(b);
+
+//destructuring function
+function destr(a, b) {
+  return [a * 3, b * 3];
+}
+console.log(destr(3, 4));
+const [one, two] = destr(4, 5);
+console.log(one);
+console.log(two);
