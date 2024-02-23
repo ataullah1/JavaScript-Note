@@ -66,7 +66,9 @@ console.log(z());
 console.log('==========');
 const ac = () => {
   const a = [3, 45, 6];
-  const b = [4, 5, 7];
-  
+  const b = [4, 85, 7];
+  const ab = [...a, ...b];
+  const result = Math.max(...ab);
+  return result;
 };
 console.log(ac());
