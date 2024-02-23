@@ -27,3 +27,11 @@ const getMath = (a, b, c, d) => {
   return af;
 };
 console.log(getMath(2, 4, 6, 7));
+
+const abc = (a, b, c) => a * b * c;
+console.log(abc(2, 3, 4));
+
+console.log('=============');
+
+const x = (a, b = 6) => a + b;
+console.log(x(2));
