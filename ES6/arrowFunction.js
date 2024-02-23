@@ -49,3 +49,24 @@ const y = () => {
   return b;
 };
 console.log(y());
+
+console.log('===========');
+const z = () => {
+  const a = [3, 4, 5, 6, 7];
+  const len = a.length;
+  let sum = 0;
+  for (const num of a) {
+    const square = num * num;
+    sum += square;
+  }
+  return sum / len;
+};
+console.log(z());
+
+console.log('==========');
+const ac = () => {
+  const a = [3, 45, 6];
+  const b = [4, 5, 7];
+  
+};
+console.log(ac());
