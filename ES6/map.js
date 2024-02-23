@@ -16,3 +16,16 @@ console.log(d);
 // First letter access
 const firstLetter = ac.map((l) => l[0]);
 console.log(firstLetter);
+
+console.log('=================');
+// =============
+const a = [1, 3, 5, 7, 9];
+const arr = [];
+for (const n of a) {
+  arr.push(n + 1);
+}
+console.log(arr);
+
+console.log('==========');
+const mapSolve = a.map((n) => n + 1);
+console.log(mapSolve);
