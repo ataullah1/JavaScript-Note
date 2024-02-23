@@ -35,3 +35,17 @@ console.log('=============');
 
 const x = (a, b = 6) => a + b;
 console.log(x(2));
+
+console.log('=============');
+const y = () => {
+  const a = ['Foriq', 'sofiqe', 'salam', 'barkat'];
+  const b = [];
+  for (const nam of a) {
+    // console.log(nam.length);
+    if (nam.length % 2 === 0) {
+      b.push(nam);
+    }
+  }
+  return b;
+};
+console.log(y());
