@@ -37,3 +37,4 @@ console.log(destr(3, 4));
 const [one, two] = destr(4, 5);
 console.log(one);
 console.log(two);
+console.log(one, two);
