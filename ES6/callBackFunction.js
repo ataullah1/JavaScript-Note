@@ -7,3 +7,5 @@ function abb(e) {
 }
 
 abc(abb, 'Ataullah');
+abc(abb, 'Javascript');
+abc(abb, 'programming');
