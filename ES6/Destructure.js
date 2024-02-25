@@ -42,3 +42,24 @@ console.log(one, two);
 const ab = [3, 4, 6, 76, 456, 6787, 3463];
 const [aa, ac, ad, ...ae] = ab;
 console.log(aa, ac, ad, ae);
+
+const obj = {
+  nam: 'ataullah',
+  roll: 35,
+  class: 'intermidate',
+  adress: {
+    local: 'bamna',
+    city: {
+      town: 'barguna',
+      division: {
+        bivag: 'barishal',
+      },
+    },
+  },
+};
+const {
+  adress: {
+    city: { division },
+  },
+} = obj;
+console.log(division);
