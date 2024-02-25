@@ -29,3 +29,12 @@ console.log(arr);
 console.log('==========');
 const mapSolve = a.map((n) => n + 1);
 console.log(mapSolve);
+
+console.log('==========');
+//array 3 prameters
+const arrInd = [2, 4, 25, 43, 56, 6, 3, 45, 75, 7, 5];
+const arrOutput = arrInd.map((val, ind, arr) =>
+  console.log('Value:', val, 'Index:', ind, 'Array:', arr)
+);
+
+console.log('==========');
