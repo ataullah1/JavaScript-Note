@@ -38,3 +38,7 @@ const [one, two] = destr(4, 5);
 console.log(one);
 console.log(two);
 console.log(one, two);
+
+const ab = [3, 4, 6, 76, 456, 6787, 3463];
+const [aa, ac, ad, ...ae] = ab;
+console.log(aa, ac, ad, ae);
