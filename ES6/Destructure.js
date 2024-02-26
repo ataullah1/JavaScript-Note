@@ -63,3 +63,11 @@ const {
   },
 } = obj;
 console.log(division);
+
+console.log('============');
+const person = {
+  name: 'Ataullah',
+  age: 18,
+};
+const showInfo = ({ name, age }) => console.log(`Name: ${name}, Age: ${age}`);
+showInfo(person);
