@@ -1,13 +1,20 @@
-const watch = stopWatch();
-console.log(watch());
-console.log(watch());
-console.log(watch());
-console.log(watch());
-// =======
-
-const c = counting();
-// protekber call korle 1 kore barbe
-console.log(c()); //1
-console.log(c()); //2
-console.log(c()); //3
-console.log(c()); //4
+const count = () => {
+  let count = 0;
+  const c = () => {
+    count++;
+    console.log('Count:', count);
+  };
+  return c;
+};
+const call = count();
+const call1 = count();
+const call2 = count();
+const call3 = count();
+call(); //  1
+call(); //  2
+call1(); // 1
+call1(); // 2
+call1(); // 3
+call2(); // 1
+call2(); // 2
+call3(); // 1
