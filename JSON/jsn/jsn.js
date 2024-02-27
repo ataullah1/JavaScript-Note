@@ -23,3 +23,15 @@ document.getElementById('btn1').addEventListener('click', function () {
     }
   }
 });
+
+// Another way for async=============
+
+document.getElementById('btn2').addEventListener('click', async () => {
+  try {
+    const res = await fetch('https://jsonplaceholder.typicode.com/comments');
+    const data = await res.json();
+    console.log(data);
+  } catch (error) {
+    console.error('Your Data Load Error!!');
+  }
+});
