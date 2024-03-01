@@ -7,3 +7,11 @@ const clockId = setInterval(() => {
   }
   console.log(num);
 }, 2000);
+
+const mass = (nam, time) => {
+  setInterval(() => {
+    console.log('hello,', nam);
+  }, time);
+};
+
+mass('Alisha!', 2000);
