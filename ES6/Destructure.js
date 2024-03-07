@@ -43,6 +43,22 @@ const ab = [3, 4, 6, 76, 456, 6787, 3463];
 const [aa, ac, ad, ...ae] = ab;
 console.log(aa, ac, ad, ae);
 
+console.log('============');
+const person = {
+  name: 'Ataullah',
+  age: 18,
+};
+const showInfo = ({ name, age }) => console.log(`Name: ${name}, Age: ${age}`);
+showInfo(person);
+
+console.log('================');
+
+const array = ['ataullah', 'amatullah', 'ayatullah'];
+const [aaa, bb, c] = array;
+console.log('1. First-', aaa, ' 2. second-', bb, ' 3. third-', c);
+
+console.log('============');
+
 const obj = {
   nam: 'ataullah',
   roll: 35,
@@ -64,12 +80,24 @@ const {
 } = obj;
 console.log(division);
 
-console.log('============');
-const person = {
-  name: 'Ataullah',
-  age: 18,
+const ban = {
+  country: 'bangladesh',
+  birth: 54,
+  adress: 'ashia',
+  rajdani: {
+    city: 'dhaka',
+    dhak: {
+      barishl: 'barguna',
+      rongpur: 'kumilla',
+    },
+  },
 };
-const showInfo = ({ name, age }) => console.log(`Name: ${name}, Age: ${age}`);
-showInfo(person);
+const {
+  rajdani: { dhak },
+} = ban;
+console.log(dhak.barishl);
+console.log(dhak.rongpur);
+console.log('================');
 
-// console.log(showInfo);
+const { barishl, rongpur } = ban?.rajdani?.dhak;
+console.log(barishl, '+++', rongpur);
