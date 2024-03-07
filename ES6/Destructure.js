@@ -71,3 +71,5 @@ const person = {
 };
 const showInfo = ({ name, age }) => console.log(`Name: ${name}, Age: ${age}`);
 showInfo(person);
+
+// console.log(showInfo);
