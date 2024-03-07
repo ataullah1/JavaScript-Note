@@ -27,3 +27,6 @@ const output = obj['local address'];
 const output2 = obj['age'];
 const output3 = obj['name'];
 console.log(output, output2, output3);
+console.log('==============');
+
+console.log('' || 'hello');
