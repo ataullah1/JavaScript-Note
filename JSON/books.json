@@ -1,0 +1,164 @@
+{
+  "ebooks": [
+    {
+      "id": "101",
+      "image": "https://example.com/images/101.jpg",
+      "book_name": "World History",
+      "description": "A comprehensive guide on world history.",
+      "original_price": 19.99,
+      "discount_price": 15.99
+    },
+    {
+      "id": "102",
+      "image": "https://example.com/images/102.jpg",
+      "book_name": "The Great Outdoors",
+      "description": "Explore the wonders of the great outdoors.",
+      "original_price": 15.99,
+      "discount_price": 12.99
+    },
+    {
+      "id": "103",
+      "image": "https://example.com/images/103.jpg",
+      "book_name": "Science of the Future",
+      "description": "Unveiling the marvels of future science and technology.",
+      "original_price": 24.99,
+      "discount_price": 19.99
+    },
+    {
+      "id": "104",
+      "image": "https://example.com/images/104.jpg",
+      "book_name": "Classic Literature",
+      "description": "Timeless classics from renowned authors.",
+      "original_price": 12.99,
+      "discount_price": 9.99
+    },
+    {
+      "id": "105",
+      "image": "https://example.com/images/105.jpg",
+      "book_name": "Healthy Living",
+      "description": "A guide to maintaining a healthy lifestyle.",
+      "original_price": 16.99,
+      "discount_price": 13.99
+    },
+    {
+      "id": "106",
+      "image": "https://example.com/images/106.jpg",
+      "book_name": "Financial Management",
+      "description": "Effective strategies for personal finance.",
+      "original_price": 21.99,
+      "discount_price": 17.99
+    },
+    {
+      "id": "107",
+      "image": "https://example.com/images/107.jpg",
+      "book_name": "Cooking Essentials",
+      "description": "Master the art of cooking with essential recipes.",
+      "original_price": 18.99,
+      "discount_price": 14.99
+    },
+    {
+      "id": "108",
+      "image": "https://example.com/images/108.jpg",
+      "book_name": "Art of Photography",
+      "description": "Discover the techniques for stunning photography.",
+      "original_price": 23.99,
+      "discount_price": 18.99
+    },
+    {
+      "id": "109",
+      "image": "https://example.com/images/109.jpg",
+      "book_name": "Mindfulness Meditation",
+      "description": "Achieve inner peace through mindfulness meditation.",
+      "original_price": 14.99,
+      "discount_price": 11.99
+    },
+    {
+      "id": "110",
+      "image": "https://example.com/images/110.jpg",
+      "book_name": "Fictional Worlds",
+      "description": "Immerse yourself in captivating fictional worlds.",
+      "original_price": 17.99,
+      "discount_price": 14.99
+    },
+    {
+      "id": "111",
+      "image": "https://example.com/images/111.jpg",
+      "book_name": "Health and Fitness",
+      "description": "A holistic approach to health and fitness.",
+      "original_price": 20.99,
+      "discount_price": 16.99
+    },
+    {
+      "id": "112",
+      "image": "https://example.com/images/112.jpg",
+      "book_name": "Business Success",
+      "description": "Strategies for achieving success in business.",
+      "original_price": 25.99,
+      "discount_price": 20.99
+    },
+    {
+      "id": "113",
+      "image": "https://example.com/images/113.jpg",
+      "book_name": "Fantasy Adventures",
+      "description": "Journey into enchanting and thrilling fantasy adventures.",
+      "original_price": 18.99,
+      "discount_price": 15.99
+    },
+    {
+      "id": "114",
+      "image": "https://example.com/images/114.jpg",
+      "book_name": "Travel Guides",
+      "description": "Explore the world with comprehensive travel guides.",
+      "original_price": 22.99,
+      "discount_price": 18.99
+    },
+    {
+      "id": "115",
+      "image": "https://example.com/images/115.jpg",
+      "book_name": "Self-Help Strategies",
+      "description": "Empower yourself with effective self-help strategies.",
+      "original_price": 16.99,
+      "discount_price": 12.99
+    },
+    {
+      "id": "116",
+      "image": "https://example.com/images/116.jpg",
+      "book_name": "Nature's Wonders",
+      "description": "Discover the wonders of nature and wildlife.",
+      "original_price": 19.99,
+      "discount_price": 15.99
+    },
+    {
+      "id": "117",
+      "image": "https://example.com/images/117.jpg",
+      "book_name": "Technology Innovations",
+      "description": "Insights into the latest technology innovations.",
+      "original_price": 23.99,
+      "discount_price": 19.99
+    },
+    {
+      "id": "118",
+      "image": "https://example.com/images/118.jpg",
+      "book_name": "Romantic Escapades",
+      "description": "Embark on romantic adventures and escapades.",
+      "original_price": 20.99,
+      "discount_price": 16.99
+    },
+    {
+      "id": "119",
+      "image": "https://example.com/images/119.jpg",
+      "book_name": "Science Fiction Chronicles",
+      "description": "A collection of captivating science fiction chronicles.",
+      "original_price": 21.99,
+      "discount_price": 17.99
+    },
+    {
+      "id": "120",
+      "image": "https://example.com/images/120.jpg",
+      "book_name": "Space Exploration",
+      "description": "Embark on a journey to the final frontier.",
+      "original_price": 29.99,
+      "discount_price": 24.99
+    }
+  ]
+}
