@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <title>Local store save data</title>
+
+    <!-- Tailwind css CDN link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- DaisyUI CDN link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Custom CSS file connect -->
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body class="h-screen">
+    <div class="h-full grid grid-cols-2 gap-14">
+      <div class="">
+        <div class="card card-compact bg-base-100 shadow-xl">
+          <figure>
+            <img
+              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body">
+            <div class="grid grid-cols-2 gap-2">
+              <input
+                class="p-3 outline-1 outline"
+                type="text"
+                placeholder="Product Name"
+                name=""
+                id="productName"
+              />
+              <input
+                class="p-3 outline-1 outline"
+                type="text"
+                placeholder=" Product Quantity"
+                name=""
+                id="quantity"
+              />
+            </div>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary" id="buyBtn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-10 text-white bg-slate-400 max-h-screen overflow-y-scroll">
+        <div id="ulAppend"></div>
+        <button
+          class="py-2 px-6 mt-4 mx-auto block bg-orange-300 text-black font-bold rounded-md"
+          id="clearBtn"
+          onclick="clearDtaBtn()"
+        >
+          Clear data
+        </button>
+      </div>
+    </div>
+    <!-- Script file connect -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
