@@ -46,3 +46,6 @@ body > .container {
   background-color: rgba(0, 0, 0, 0.756);
   color: white;
 }
+.footerSec > p > a {
+  color: salmon;
+}
